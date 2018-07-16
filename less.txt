@@ -1,0 +1,11 @@
+vue.js如何安装less
+
+1.安装less和less-loader  : 命令：npm install less less-loader --save
+
+2.配置less: 路径：build---webpack.base.conf.js添加
+
+{
+  test: /\.less$/,
+  loader: 'style-loader!css-loader!less-loader'
+}
+3.webstorm语法配置： 路径flie-settings-tools-flie watchers
