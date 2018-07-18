@@ -5,9 +5,18 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vant from 'vant';
+
+import { Lazyload } from 'vant';
+
+// options 为可选参数，无则不传
+
+
+// options 为可选参数，无则不传
+
 import 'vant/lib/vant-css/index.css';
 
 Vue.use(Vant);
+Vue.use(Lazyload);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
